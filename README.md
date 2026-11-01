@@ -15,17 +15,19 @@ I enjoy building interactive experiences and exploring the space where **code me
 <table>
 <tr>
 <td align="center" width="50%">
+<p align="center">
 <a href="https://portfolio-thamer-douss.vercel.app">
 <img src="https://img.shields.io/badge/CLASSIC_PORTFOLIO-182433?style=for-the-badge&logo=vercel&logoColor=white" alt="Classic portfolio" />
 </a>
-<br/>
+</p>
 <sub>Projects, skills, and my journey.</sub>
 </td>
 <td align="center" width="50%">
+<p align="center">
 <a href="https://thamer-douss-portfolio.vercel.app">
 <img src="https://img.shields.io/badge/3D_PORTFOLIO-24566A?style=for-the-badge&logo=threedotjs&logoColor=white" alt="3D portfolio" />
 </a>
-<br/>
+</p>
 <sub>An immersive, interactive experience.</sub>
 </td>
 </tr>
@@ -35,8 +37,12 @@ I enjoy building interactive experiences and exploring the space where **code me
 
 <img src="https://skillicons.dev/icons?i=cs,java,ts,js,unity,threejs,react,firebase&perline=8" alt="C sharp, Java, TypeScript, JavaScript, Unity, Three.js, React, Firebase" />
 
+<br/><br/>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thamer-douss/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xAgesx)
+
+<br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3200&pause=1000&color=8B9BB4&center=true&vCenter=true&width=580&height=28&lines=OPEN+TO+GAME+DEVELOPMENT+%2F+XR+INTERNSHIPS;Let's+build+something+people+remember." alt="Open to game development and XR internships" />
 
