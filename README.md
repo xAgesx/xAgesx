@@ -2,7 +2,7 @@
 
 <p align="center">
   Game &amp; XR developer &nbsp;·&nbsp; Unity &nbsp;·&nbsp; C# &nbsp;·&nbsp; Meta Quest &nbsp;·&nbsp; Three.js<br/>
-  <sub>2× Game Jam Champion (2026) &nbsp;·&nbsp; Tunis</sub>
+  <sub>2× Game Jam Champion (2026) &nbsp;·&nbsp; Tunisia, Sousse</sub>
 </p>
 
 <p align="center">
