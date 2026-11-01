@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:243B53,100:5B8FA8&height=125&section=header&text=CODE%20%E2%80%A2%20CREATE%20%E2%80%A2%20IMMERSE&fontSize=21&fontColor=F8FAFC&fontAlignY=55&animation=fadeIn" width="100%" alt="Code, create, immerse" />
 
-<img src="https://raw.githubusercontent.com/xAgesx/xAgesx/main/assets/name-switch.svg?v=latest2" width="580" alt="Animated name switching between Thamer Douss and xAgesx" />
+<img src="https://raw.githubusercontent.com/xAgesx/xAgesx/main/assets/name-switch.svg?v=animated3" width="580" alt="Animated name alternating between Thamer Douss and xAgesx" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2600&pause=750&color=72C7D5&center=true&vCenter=true&width=680&height=38&lines=I+build+worlds%2C+not+just+screens.;Part+developer%2C+part+experimenter.;Turning+curiosity+into+interactive+experiences.;Exploring+the+space+between+games+and+reality." alt="Animated personal tagline" />
 
@@ -15,19 +15,19 @@ I enjoy building interactive experiences and exploring the space where **code me
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<p align="center">
+<br/><br/>
 <a href="https://portfolio-thamer-douss.vercel.app">
 <img src="https://img.shields.io/badge/CLASSIC_PORTFOLIO-182433?style=for-the-badge&logo=vercel&logoColor=white" alt="Classic portfolio" />
 </a>
-</p>
+<br/>
 <sub>Projects, skills, and my journey.</sub>
 </td>
 <td align="center" valign="top" width="50%">
-<p align="center">
+<br/><br/>
 <a href="https://thamer-douss-portfolio.vercel.app">
 <img src="https://img.shields.io/badge/3D_PORTFOLIO-24566A?style=for-the-badge&logo=threedotjs&logoColor=white" alt="3D portfolio" />
 </a>
-</p>
+<br/>
 <sub>An immersive, interactive experience.</sub>
 </td>
 </tr>
