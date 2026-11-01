@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://thamer-douss.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-10152A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://portfolio-thamer-douss.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-10152A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/xAgesx"><img src="https://img.shields.io/badge/GITHUB-10152A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://www.linkedin.com/in/thamer-douss/"><img src="https://img.shields.io/badge/LINKEDIN-10152A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
@@ -79,12 +79,9 @@ I'm a software engineering student specializing in **Game Development and VR/MR 
 
 <p>
   <img src="https://img.shields.io/badge/Unity-111827?style=flat-square&logo=unity&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-111827?style=flat-square&logo=csharp&logoColor=9B7BFF" />
-  <img src="https://img.shields.io/badge/C%2B%2B-111827?style=flat-square&logo=cplusplus&logoColor=7AB8FF" />
   <img src="https://img.shields.io/badge/Three.js-111827?style=flat-square&logo=threedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Angular-111827?style=flat-square&logo=angular&logoColor=DD0031" />
   <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6" />
-  <img src="https://img.shields.io/badge/Blender-111827?style=flat-square&logo=blender&logoColor=F5792A" />
   <img src="https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032" />
 </p>
 
@@ -103,8 +100,7 @@ I’m especially interested in the space where software engineering meets intera
 ---
 
 <p align="center">
-  <a href="https://thamer-douss.vercel.app">PORTFOLIO</a> &nbsp;·&nbsp;
+  <a href="https://portfolio-thamer-douss.vercel.app">PORTFOLIO</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/thamer-douss/">LINKEDIN</a> &nbsp;·&nbsp;
-  <a href="mailto:">LET'S CONNECT</a>
 </p>
 <p align="center"><sub>DESIGNED & BUILT BY THAMER DOUSS · KEEP CREATING.</sub></p>
