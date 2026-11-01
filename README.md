@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:243B53,100:5B8FA8&height=125&section=header&text=CODE%20%E2%80%A2%20CREATE%20%E2%80%A2%20IMMERSE&fontSize=21&fontColor=F8FAFC&fontAlignY=55&animation=fadeIn" width="100%" alt="Code, create, immerse" />
 
-<img src="https://raw.githubusercontent.com/xAgesx/xAgesx/main/assets/name-switch.svg" width="580" alt="Animated name switching between Thamer Douss and xAgesx" />
+<img src="https://raw.githubusercontent.com/xAgesx/xAgesx/main/assets/name-switch.svg?v=0a29bd17" width="580" alt="Animated name switching between Thamer Douss and xAgesx" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2600&pause=750&color=72C7D5&center=true&vCenter=true&width=680&height=38&lines=I+build+worlds%2C+not+just+screens.;Part+developer%2C+part+experimenter.;Turning+curiosity+into+interactive+experiences.;Exploring+the+space+between+games+and+reality." alt="Animated personal tagline" />
 
