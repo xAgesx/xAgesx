@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="76" viewBox="0 0 620 76">
+<rect width="620" height="76" fill="none"/>
+<g font-family="Inter, Arial, sans-serif" font-size="40" font-weight="600" text-anchor="middle">
+  <text x="310" y="52" fill="#eff4fa" opacity="1">THAMER DOUSS
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="52;52;42;42;52" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
+  </text>
+  <text x="310" y="52" fill="#72c7d5" opacity="0">xAgesx
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="62;62;52;52;62" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
+  </text>
+</g>
+</svg>
