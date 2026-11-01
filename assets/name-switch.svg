@@ -1,31 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="100" viewBox="0 0 620 100">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="118" viewBox="0 0 620 118">
 <defs>
   <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#42E8C5"/>
-    <stop offset="50%" stop-color="#65BFFF"/>
+    <stop offset="48%" stop-color="#7CCBFF"/>
     <stop offset="100%" stop-color="#42E8C5"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="7s" repeatCount="indefinite"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
   </linearGradient>
-  <filter id="softGlow" x="-30%" y="-60%" width="160%" height="220%">
-    <feGaussianBlur stdDeviation="3" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#42E8C5" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#A4F7E8" stop-opacity=".9"/>
+    <stop offset="100%" stop-color="#42E8C5" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<rect width="620" height="100" fill="none"/>
-<g font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle" letter-spacing="0.7" fill="url(#accent)" filter="url(#softGlow)">
-  <text x="310" y="55" opacity="1">THAMER DOUSS
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.35;0.45;0.90;1" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="55;55;43;43;55" keyTimes="0;0.35;0.45;0.90;1" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="letter-spacing" values="0.7;1.8;0.7" dur="12s" repeatCount="indefinite"/>
-  </text>
-  <text x="310" y="55" opacity="0">xAgesx
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.35;0.45;0.90;1" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="67;67;55;55;67" keyTimes="0;0.35;0.45;0.90;1" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="letter-spacing" values="0.7;1.8;0.7" dur="12s" repeatCount="indefinite"/>
-  </text>
+<rect width="620" height="118" fill="none"/>
+<!-- signature mark -->
+<g transform="translate(92 58)" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round">
+  <path d="M0 -27 L24 -14 L24 14 L0 27 L-24 14 L-24 -14 Z" opacity=".9"/>
+  <path d="M-10 10 V-10 L10 10 V-10" stroke-linecap="round" stroke-width="3"/>
+  <circle cx="0" cy="-34" r="2.5" fill="#42E8C5" stroke="none">
+    <animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
 </g>
-<path d="M205 77 H415" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="210" stroke-dashoffset="210">
-  <animate attributeName="stroke-dashoffset" values="210;0;0;210" keyTimes="0;0.18;0.78;1" dur="12s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.82;1" dur="12s" repeatCount="indefinite"/>
+<g text-anchor="middle" font-family="Inter, Arial, sans-serif" fill="url(#accent)" filter="url(#glow)">
+  <g opacity="1">
+    <text x="365" y="63" font-size="48" font-weight="800" letter-spacing="2.8">THAMER</text>
+    <text x="365" y="86" font-size="13" font-weight="600" letter-spacing="9">DOUSS</text>
+    <animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.40;.46;.52;.94;1" dur="16s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 -7;0 -7;0 0" keyTimes="0;.40;.46;.52;.94;1" dur="16s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <text x="365" y="72" font-size="58" font-weight="800" letter-spacing="1.5">xAgesx</text>
+    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.40;.46;.52;.94;1" dur="16s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 7;0 7;0 7;0 0;0 0;0 7" keyTimes="0;.40;.46;.52;.94;1" dur="16s" repeatCount="indefinite"/>
+  </g>
+</g>
+<!-- animated signature line and scanning glint -->
+<path d="M205 101 H525" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+<path d="M205 101 H525" stroke="url(#beam)" stroke-width="5" stroke-linecap="round" stroke-dasharray="70 250" opacity=".9">
+  <animate attributeName="stroke-dashoffset" values="320;0;-320" dur="4s" repeatCount="indefinite"/>
 </path>
+<circle cx="205" cy="101" r="2.5" fill="#42E8C5"/>
+<circle cx="525" cy="101" r="2.5" fill="#7CCBFF"/>
 </svg>
