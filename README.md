@@ -12,6 +12,29 @@ I like taking ideas apart, figuring out how they work, then rebuilding them into
 
 <br/>
 
+## THE WAY I CREATE
+
+<table>
+<tr>
+<td align="center" width="33%">
+<strong>01 / IMAGINE</strong><br/><br/>
+Start with a question, a sketch, or an idea that won't leave me alone.
+</td>
+<td align="center" width="33%">
+<strong>02 / EXPERIMENT</strong><br/><br/>
+Prototype, break things, learn fast, and find what feels right.
+</td>
+<td align="center" width="33%">
+<strong>03 / BUILD</strong><br/><br/>
+Turn the experiment into an experience worth exploring.
+</td>
+</tr>
+</table>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2400&pause=700&color=8B9BB4&center=true&vCenter=true&width=560&height=32&lines=IDEA+%E2%86%92+EXPERIMENT+%E2%86%92+EXPERIENCE" alt="Animated creative process" />
+
+<br/>
+
 ## CHOOSE YOUR EXPERIENCE
 
 <table>
