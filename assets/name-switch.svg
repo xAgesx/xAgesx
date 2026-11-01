@@ -16,14 +16,14 @@
     <text x="350" y="68" font-size="58" font-weight="700" letter-spacing="2" fill="none" stroke="#42E8C5" stroke-width="1.2" opacity=".35">THAMER</text>
     <text x="350" y="68" font-size="58" font-weight="700" letter-spacing="2" fill="url(#neon)">THAMER</text>
     <text x="350" y="99" font-size="19" font-weight="700" letter-spacing="8" fill="#86A9B5">DOUSS</text>
-    <animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 -6;0 -6;0 0" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.43;.47;.52;.96;1" dur="14s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 -6;0 -6;0 0" keyTimes="0;.43;.47;.52;.96;1" dur="14s" repeatCount="indefinite"/>
   </g>
   <g opacity="0">
     <text x="350" y="79" font-size="68" font-weight="700" letter-spacing="1" fill="none" stroke="#42E8C5" stroke-width="1.2" opacity=".35">xAgesx</text>
     <text x="350" y="79" font-size="68" font-weight="700" letter-spacing="1" fill="url(#neon)">xAgesx</text>
-    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 6;0 0;0 0;0 6" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.43;.47;.52;.96;1" dur="14s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 6;0 0;0 0;0 6" keyTimes="0;.43;.47;.52;.96;1" dur="14s" repeatCount="indefinite"/>
   </g>
 </g>
 <path d="M150 110 H550" stroke="#29424D" stroke-width="1"/>
