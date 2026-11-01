@@ -1,38 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="120" viewBox="0 0 700 120">
 <defs>
-  <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#F4F7FA"/>
-    <stop offset=".55" stop-color="#B9D9E8"/>
-    <stop offset="1" stop-color="#42E8C5"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0;0.4 0;-0.4 0" dur="9s" repeatCount="indefinite"/>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#B9FFF1"/><stop offset=".5" stop-color="#42E8C5"/><stop offset="1" stop-color="#66AFFF"/>
   </linearGradient>
-  <linearGradient id="slash" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#42E8C5"/><stop offset="1" stop-color="#7CCBFF"/>
-  </linearGradient>
-  <clipPath id="reveal"><rect x="0" y="0" width="700" height="120">
-    <animate attributeName="width" values="0;700;700;0" keyTimes="0;.08;.88;1" dur="20s" repeatCount="indefinite"/>
-  </rect></clipPath>
+  <filter id="blur" x="-40%" y="-100%" width="180%" height="300%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
 </defs>
 <rect width="700" height="120" fill="none"/>
-<!-- Name: clean editorial wordmark with a sharp signature slash -->
-<g text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800">
+<!-- Futuristic terminal / signal identity -->
+<g font-family="monospace" text-anchor="middle">
   <g opacity="1">
-    <text x="350" y="70" font-size="53" letter-spacing="3.5" fill="url(#ink)">THAMER</text>
-    <path d="M467 25 L450 78" stroke="url(#slash)" stroke-width="5" stroke-linecap="square"/>
-    <text x="350" y="94" font-size="12" font-weight="600" letter-spacing="12" fill="#7E9BAA">DOUSS</text>
-    <animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 -5;0 -5;0 0" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
+    <text x="350" y="75" font-size="59" font-weight="700" letter-spacing="2" fill="none" stroke="#42E8C5" stroke-width="1.2" opacity=".35">THAMER</text>
+    <text x="350" y="75" font-size="59" font-weight="700" letter-spacing="2" fill="url(#neon)">THAMER</text>
+    <text x="350" y="98" font-size="11" letter-spacing="10" fill="#86A9B5">D O U S S</text>
+    <animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.43;.48;.53;.96;1" dur="22s" repeatCount="indefinite"/>
   </g>
   <g opacity="0">
-    <text x="350" y="76" font-size="66" letter-spacing="2" fill="url(#ink)">xAgesx</text>
-    <path d="M490 29 L474 84" stroke="url(#slash)" stroke-width="5" stroke-linecap="square"/>
-    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 5;0 5;0 5;0 0;0 0;0 5" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
+    <text x="350" y="77" font-size="67" font-weight="700" letter-spacing="1" fill="none" stroke="#42E8C5" stroke-width="1.2" opacity=".35">xAgesx</text>
+    <text x="350" y="77" font-size="67" font-weight="700" letter-spacing="1" fill="url(#neon)">xAgesx</text>
+    <text x="350" y="98" font-size="10" letter-spacing="7" fill="#86A9B5">BUILD / PLAY / EXPLORE</text>
+    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.43;.48;.53;.96;1" dur="22s" repeatCount="indefinite"/>
   </g>
 </g>
-<!-- Thin baseline; the traveling accent is deliberately restrained -->
-<path d="M190 108 H510" stroke="#29424D" stroke-width="1"/>
-<path d="M190 108 H510" stroke="url(#slash)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="42 278">
-  <animate attributeName="stroke-dashoffset" values="320;0;-320" dur="5s" repeatCount="indefinite"/>
+<!-- segmented signal brackets -->
+<g fill="none" stroke="url(#neon)" stroke-width="2.5" stroke-linecap="square">
+  <path d="M115 38 V82 M115 38 H139 M115 82 H139"/>
+  <path d="M585 38 V82 M585 38 H561 M585 82 H561"/>
+  <path d="M128 60 H151 M572 60 H549" opacity=".5"/>
+</g>
+<g fill="#42E8C5">
+  <circle cx="115" cy="60" r="3"><animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="585" cy="60" r="3"><animate attributeName="r" values="4;2;4" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+<path d="M150 110 H550" stroke="#29424D" stroke-width="1"/>
+<path d="M150 110 H550" stroke="url(#neon)" stroke-width="2" stroke-dasharray="28 372">
+  <animate attributeName="stroke-dashoffset" values="400;0;-400" dur="4s" repeatCount="indefinite"/>
 </path>
 </svg>
