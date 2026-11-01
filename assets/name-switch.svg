@@ -1,13 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="76" viewBox="0 0 620 76">
-<rect width="620" height="76" fill="none"/>
-<g font-family="Inter, Arial, sans-serif" font-size="40" font-weight="600" text-anchor="middle">
-  <text x="310" y="52" fill="#eff4fa" opacity="1">THAMER DOUSS
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="84" viewBox="0 0 620 84">
+<defs>
+  <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#45D6E8"/>
+    <stop offset="52%" stop-color="#7C83FF"/>
+    <stop offset="100%" stop-color="#C084FC"/>
+  </linearGradient>
+  <linearGradient id="handleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="50%" stop-color="#FB7185"/>
+    <stop offset="100%" stop-color="#C084FC"/>
+  </linearGradient>
+</defs>
+<rect width="620" height="84" fill="none"/>
+<g font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle" letter-spacing="0.5">
+  <text x="310" y="55" fill="url(#nameGradient)" opacity="1">THAMER DOUSS
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="52;52;42;42;52" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="55;55;45;45;55" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
   </text>
-  <text x="310" y="52" fill="#72c7d5" opacity="0">xAgesx
+  <text x="310" y="55" fill="url(#handleGradient)" opacity="0">xAgesx
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="62;62;52;52;62" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="65;65;55;55;65" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
   </text>
 </g>
 </svg>
