@@ -1,48 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="118" viewBox="0 0 620 118">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="120" viewBox="0 0 700 120">
 <defs>
-  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#42E8C5"/>
-    <stop offset="48%" stop-color="#7CCBFF"/>
-    <stop offset="100%" stop-color="#42E8C5"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+  <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#F4F7FA"/>
+    <stop offset=".55" stop-color="#B9D9E8"/>
+    <stop offset="1" stop-color="#42E8C5"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0;0.4 0;-0.4 0" dur="9s" repeatCount="indefinite"/>
   </linearGradient>
-  <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#42E8C5" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#A4F7E8" stop-opacity=".9"/>
-    <stop offset="100%" stop-color="#42E8C5" stop-opacity="0"/>
+  <linearGradient id="slash" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#42E8C5"/><stop offset="1" stop-color="#7CCBFF"/>
   </linearGradient>
-  <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
-    <feGaussianBlur stdDeviation="4" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
+  <clipPath id="reveal"><rect x="0" y="0" width="700" height="120">
+    <animate attributeName="width" values="0;700;700;0" keyTimes="0;.08;.88;1" dur="20s" repeatCount="indefinite"/>
+  </rect></clipPath>
 </defs>
-<rect width="620" height="118" fill="none"/>
-<!-- signature mark -->
-<g transform="translate(92 58)" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round">
-  <path d="M0 -27 L24 -14 L24 14 L0 27 L-24 14 L-24 -14 Z" opacity=".9"/>
-  <path d="M-10 10 V-10 L10 10 V-10" stroke-linecap="round" stroke-width="3"/>
-  <circle cx="0" cy="-34" r="2.5" fill="#42E8C5" stroke="none">
-    <animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<g text-anchor="middle" font-family="Inter, Arial, sans-serif" fill="url(#accent)" filter="url(#glow)">
+<rect width="700" height="120" fill="none"/>
+<!-- Name: clean editorial wordmark with a sharp signature slash -->
+<g text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800">
   <g opacity="1">
-    <text x="365" y="63" font-size="48" font-weight="800" letter-spacing="2.8">THAMER</text>
-    <text x="365" y="86" font-size="13" font-weight="600" letter-spacing="9">DOUSS</text>
-    <animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.40;.46;.52;.94;1" dur="16s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 -7;0 -7;0 0" keyTimes="0;.40;.46;.52;.94;1" dur="16s" repeatCount="indefinite"/>
+    <text x="350" y="70" font-size="53" letter-spacing="3.5" fill="url(#ink)">THAMER</text>
+    <path d="M467 25 L450 78" stroke="url(#slash)" stroke-width="5" stroke-linecap="square"/>
+    <text x="350" y="94" font-size="12" font-weight="600" letter-spacing="12" fill="#7E9BAA">DOUSS</text>
+    <animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 -5;0 -5;0 0" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
   </g>
   <g opacity="0">
-    <text x="365" y="72" font-size="58" font-weight="800" letter-spacing="1.5">xAgesx</text>
-    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.40;.46;.52;.94;1" dur="16s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 7;0 7;0 7;0 0;0 0;0 7" keyTimes="0;.40;.46;.52;.94;1" dur="16s" repeatCount="indefinite"/>
+    <text x="350" y="76" font-size="66" letter-spacing="2" fill="url(#ink)">xAgesx</text>
+    <path d="M490 29 L474 84" stroke="url(#slash)" stroke-width="5" stroke-linecap="square"/>
+    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 5;0 5;0 5;0 0;0 0;0 5" keyTimes="0;.43;.47;.52;.96;1" dur="20s" repeatCount="indefinite"/>
   </g>
 </g>
-<!-- animated signature line and scanning glint -->
-<path d="M205 101 H525" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity=".85"/>
-<path d="M205 101 H525" stroke="url(#beam)" stroke-width="5" stroke-linecap="round" stroke-dasharray="70 250" opacity=".9">
-  <animate attributeName="stroke-dashoffset" values="320;0;-320" dur="4s" repeatCount="indefinite"/>
+<!-- Thin baseline; the traveling accent is deliberately restrained -->
+<path d="M190 108 H510" stroke="#29424D" stroke-width="1"/>
+<path d="M190 108 H510" stroke="url(#slash)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="42 278">
+  <animate attributeName="stroke-dashoffset" values="320;0;-320" dur="5s" repeatCount="indefinite"/>
 </path>
-<circle cx="205" cy="101" r="2.5" fill="#42E8C5"/>
-<circle cx="525" cy="101" r="2.5" fill="#7CCBFF"/>
 </svg>
