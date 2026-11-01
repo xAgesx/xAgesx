@@ -2,9 +2,12 @@
 
 # THAMER DOUSS
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=8B9BB4&center=true&vCenter=true&width=620&height=42&lines=Game+Development;VR%2FMR+Experiences;Turning+ideas+into+interactive+worlds" alt="Animated text: Game Development, VR/MR Experiences, Turning ideas into interactive worlds" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=8B9BB4&center=true&vCenter=true&width=680&height=48&lines=Game+Developer+in+the+making;Building+worlds%2C+not+just+screens;Curious+mind.+Builder+hands.;Exploring+VR%2FMR+one+idea+at+a+time." alt="Animated text with a personal introduction" />
 
-Software engineering student focused on creating interactive experiences.
+I’m a software engineering student drawn to the space where **code meets imagination**.  
+I enjoy turning curious ideas into interactive experiences people can step into.
+
+**A little curiosity. A lot of experimenting. Always building.**
 
 [Portfolio](https://portfolio-thamer-douss.vercel.app)　 /　 [LinkedIn](https://www.linkedin.com/in/thamer-douss/)
 
