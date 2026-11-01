@@ -1,8 +1,10 @@
-<h1 align="center">Thamer Douss</h1>
+<p align="center">
+  <img src="assets/profile-hero.svg" alt="Thamer Douss, Software Engineering Student: game development, VR/MR experiences" width="100%">
+</p>
 
 <p align="center">
-  Game &amp; XR developer &nbsp;·&nbsp; Unity &nbsp;·&nbsp; C# &nbsp;·&nbsp; Meta Quest &nbsp;·&nbsp; Three.js<br/>
-  <sub>2× Game Jam Champion (2026) &nbsp;·&nbsp; Tunisia, Sousse</sub>
+  <b>I build worlds you can step into.</b><br/>
+  <sub>Game &amp; XR developer &nbsp;·&nbsp; 2× Game Jam Champion (2026) &nbsp;·&nbsp; Tunis</sub>
 </p>
 
 <p align="center">
@@ -19,9 +21,17 @@
   </picture>
 </p>
 
-### About
+### Player card
 
-I build gameplay systems, VR/MR experiences and immersive simulations. Studio R&amp;D at SIV Games, commercial XR work for a freelance client, and two first-place finishes at game jams in 2026.
+| Player | xAgesx |
+|---|---|
+| **Class** | Gameplay engineer, with a soft spot for VR |
+| **Main** | Unity · C# · XR Interaction (Meta Quest 3) |
+| **Side quests** | Three.js · Angular · Firebase · Java |
+| **Achievements** | 🏆 EPI VR Game Jam 2026 · 🏆 Global GameJam 2026 |
+| **Status** | 🟢 Open to internships, freelance and full-time |
+
+I like the moment a system clicks and a world starts to feel alive: AI that behaves, physics that feels right, a space you want to look around in. I prototype fast, then spend the rest of the time on feel.
 
 ### Selected work
 
@@ -36,14 +46,15 @@ I build gameplay systems, VR/MR experiences and immersive simulations. Studio R&
 
 <sub>Private work: a taxi simulation (AI traffic, procedural city, day/night cycle) and a Meta Quest 3 fire-training MR app.</sub>
 
-### Experience
+### Patch notes
 
-- **SIV Games**: Gameplay Engineering Intern, Tunis (Jul–Sep 2026)
-- **Freelance**: Unity XR/MR Developer (Jun 2026)
-- **Armageddon Studios**: Software Engineer Intern, remote (Sep 2025)
+```diff
++ 2026  Won the Global GameJam: Spatial Mechanics, 48 hours, one puzzle game
++ 2026  Won the EPI VR Game Jam: co-op Excellence, split-screen, cozy world
++ Jul   Joined SIV Games (Tunis): shipped a full taxi sim with AI traffic and a procedural city
++ Jun   Freelance: Meta Quest 3 fire-training MR app with hand tracking
++ Sep   Armageddon Studios: first remote engineering internship (2025)
+- bugs  Still hunting them
+```
 
-### Stack
-
-`Unity` `C#` `XR Interaction` `Meta Quest 3` `Java` `TypeScript` `Angular` `Three.js` `Firebase` `Git`
-
-<p align="center"><sub>Open to internships, freelance and full-time roles. <a href="mailto:thamer.douss+stage@gmail.com">Let's talk.</a></sub></p>
+<p align="center"><sub><b>Currently:</b> looking for the next team to build with. <a href="mailto:thamer.douss+stage@gmail.com">Say hi →</a></sub></p>
