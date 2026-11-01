@@ -1,25 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="84" viewBox="0 0 620 84">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="100" viewBox="0 0 620 100">
 <defs>
-  <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#45D6E8"/>
-    <stop offset="52%" stop-color="#7C83FF"/>
-    <stop offset="100%" stop-color="#C084FC"/>
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#42E8C5"/>
+    <stop offset="50%" stop-color="#65BFFF"/>
+    <stop offset="100%" stop-color="#42E8C5"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="7s" repeatCount="indefinite"/>
   </linearGradient>
-  <linearGradient id="handleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#F59E0B"/>
-    <stop offset="50%" stop-color="#FB7185"/>
-    <stop offset="100%" stop-color="#C084FC"/>
-  </linearGradient>
+  <filter id="softGlow" x="-30%" y="-60%" width="160%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
 </defs>
-<rect width="620" height="84" fill="none"/>
-<g font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle" letter-spacing="0.5">
-  <text x="310" y="55" fill="url(#nameGradient)" opacity="1">THAMER DOUSS
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="55;55;45;45;55" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
+<rect width="620" height="100" fill="none"/>
+<g font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle" letter-spacing="0.7" fill="url(#accent)" filter="url(#softGlow)">
+  <text x="310" y="55" opacity="1">THAMER DOUSS
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.35;0.45;0.90;1" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="55;55;43;43;55" keyTimes="0;0.35;0.45;0.90;1" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="letter-spacing" values="0.7;1.8;0.7" dur="12s" repeatCount="indefinite"/>
   </text>
-  <text x="310" y="55" fill="url(#handleGradient)" opacity="0">xAgesx
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="65;65;55;55;65" keyTimes="0;0.34;0.42;0.92;1" dur="5.6s" repeatCount="indefinite"/>
+  <text x="310" y="55" opacity="0">xAgesx
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.35;0.45;0.90;1" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="67;67;55;55;67" keyTimes="0;0.35;0.45;0.90;1" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="letter-spacing" values="0.7;1.8;0.7" dur="12s" repeatCount="indefinite"/>
   </text>
 </g>
+<path d="M205 77 H415" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="210" stroke-dashoffset="210">
+  <animate attributeName="stroke-dashoffset" values="210;0;0;210" keyTimes="0;0.18;0.78;1" dur="12s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.82;1" dur="12s" repeatCount="indefinite"/>
+</path>
 </svg>
