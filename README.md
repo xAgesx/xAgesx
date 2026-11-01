@@ -1,23 +1,15 @@
-<table>
-<tr>
-<td width="34%" align="center" valign="middle">
-
-<img src="assets/panther-pixel.gif" width="190" alt="Pixel panther" />
-
-</td>
-<td valign="middle">
+<div align="center">
 
 # THAMER DOUSS
 
-### Code. Create. Immerse.
+**GAME DEVELOPER · XR CREATOR · SOFTWARE ENGINEERING STUDENT**
 
-Software engineering student focused on **game development and VR/MR experiences**.
+I turn ideas into interactive experiences.
 
-[PORTFOLIO ↗](https://portfolio-thamer-douss.vercel.app)  
-[LINKEDIN ↗](https://www.linkedin.com/in/thamer-douss/)
+[Portfolio](https://portfolio-thamer-douss.vercel.app)　 /　 [LinkedIn](https://www.linkedin.com/in/thamer-douss/)
 
-<sub>OPEN TO GAME / XR INTERNSHIPS</sub>
+---
 
-</td>
-</tr>
-</table>
+**Currently looking for a Game Development / XR internship.**
+
+</div>
